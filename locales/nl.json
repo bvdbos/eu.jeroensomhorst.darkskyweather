@@ -1,0 +1,4 @@
+{
+  "settings_apikey_required":  "Een API sleutel is verplicht.",
+  "settings_apikey_invalid": "De opgegeven API sleutel is incorrect"
+}

@@ -1,0 +1,4 @@
+{
+  "settings_apikey_required":  "An API Key is required",
+  "settings_apikey_invalid": "The provided api key seems to be invalid"
+}
