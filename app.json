@@ -94,7 +94,7 @@
             "type": "number",
             "value": 0,
             "label": {
-              "en": "Longtitude",
+              "en": "Latitude",
               "nl": "Breedtegraad",
               "de": "Breitengrad"
             }
