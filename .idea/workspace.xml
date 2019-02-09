@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eea334c8-d648-4bbf-a99e-b2183331b6d3" name="Default Changelist" comment="" />
+    <list default="true" id="eea334c8-d648-4bbf-a99e-b2183331b6d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/darksky_current_weather/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/darksky_current_weather/driver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-format/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-format/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,64 +15,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.34127843">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/drivers/darksky_current_weather/driver.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <element signature="e#251#305#0" />
-                    <element signature="e#252#304#0" />
-                    <element signature="n#!!block;n#guid#0;n#DarkskyDriver#0" />
-                    <element signature="n#!!block;n#s4#0;n#!!block;n#guid#0;n#DarkskyDriver#0" />
-                    <element signature="e#1697#1815#0" />
-                    <element signature="e#1858#2025#0" />
-                    <element signature="e#2049#2103#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locales/de.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/drivers/darksky_current_weather/device.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1054">
-                  <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
-                  <caret line="144" column="25" lean-forward="true" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-                  <folding>
-                    <element signature="n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!block;n#name#0;n#!!top" />
+                <element signature="n#!!block;n#description#0;n#!!top" />
+                <element signature="e#388#407#0" />
+                <element signature="n#!!block;n#images#0;n#!!top" />
+                <element signature="n#!!block;n#author#0;n#!!top" />
+                <element signature="e#690#798#0" />
+                <element signature="e#1362#1518#0" />
+                <element signature="e#1458#1508#0" />
+                <element signature="e#1528#1609#0" />
+                <element signature="e#1637#3062#0" />
+                <element signature="e#1647#3061#0" />
+                <element signature="e#1691#1777#0" />
+                <element signature="e#1799#3053#0" />
+                <element signature="e#1800#2249#0" />
+                <element signature="e#1922#2012#0" />
+                <element signature="e#2032#2239#0" />
+                <element signature="e#2261#2499#0" />
+                <element signature="e#2370#2487#0" />
+                <element signature="e#2511#2747#0" />
+                <element signature="e#2618#2735#0" />
+                <element signature="e#2759#3043#0" />
+                <element signature="e#2843#2986#0" />
+                <element signature="n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#insightsTitleTrue#0;n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#insightsTitleTrue#0;n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_visibility#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_visibility#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_temperature_high#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_temperature_low#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_low#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_temperature_lowtime#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_lowtime#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#cstm_measure_temperature_hightime#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_hightime#0;n#!!block;n#capabilities#0;n#!!top" />
+                <element signature="n#!!block;n#contributing#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -76,35 +76,59 @@
       <find>cstm_apparent_temperature</find>
       <find>temperature</find>
       <find>current.</find>
+      <find>cstm_measure_visibility</find>
+      <find>cstm_measure_temperature_lowtime</find>
+      <find>daily</find>
+      <find>updating daily</find>
+      <find>FLOW_CONDITION_MAXTEMP</find>
+      <find>measure_temp_max</find>
+      <find>capabil</find>
+      <find>condition_maxtemp</find>
+      <find>doerror</find>
+      <find>homey.app.dolog</find>
+      <find>buffer</find>
+      <find>getWeather</find>
+      <find>return</find>
+      <find>guid</find>
+      <find>hasva</find>
+      <find>hasValidSettings</find>
+      <find>var</find>
+      <find>cronrun</find>
+      <find>registerConditions</find>
+      <find>cstm_measure_temperature_high</find>
     </findStrings>
     <replaceStrings>
       <replace>currently</replace>
       <replace>currently.</replace>
+      <replace>this.log</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/locales/en.json" />
         <option value="$PROJECT_DIR$/locales/de.json" />
         <option value="$PROJECT_DIR$/locales/nl.json" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/drivers/darksky_current_weather/device.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/node_modules/string-format/index.js" />
         <option value="$PROJECT_DIR$/drivers/darksky_current_weather/driver.js" />
+        <option value="$PROJECT_DIR$/app.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1061" />
-    <option name="y" value="40" />
-    <option name="width" value="1271" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -121,7 +145,13 @@
             <path>
               <item name="eu.jeroensomhorst.darkskyweather" type="b2602c69:ProjectViewProjectNode" />
               <item name="eu.jeroensomhorst.darkskyweather" type="462c0819:PsiDirectoryNode" />
-              <item name="locales" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eu.jeroensomhorst.darkskyweather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eu.jeroensomhorst.darkskyweather" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="darksky_current_weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +161,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -163,12 +194,24 @@
       <option name="presentableId" value="Default" />
       <updated>1549104955508</updated>
       <workItem from="1549104956826" duration="4920000" />
-      <workItem from="1549112742648" duration="15320000" />
+      <workItem from="1549112742648" duration="16723000" />
+      <workItem from="1549137071935" duration="184000" />
+      <workItem from="1549139896180" duration="2328000" />
+      <workItem from="1549180151529" duration="2126000" />
+      <workItem from="1549195468219" duration="12000" />
+      <workItem from="1549312636571" duration="1222000" />
+      <workItem from="1549383287408" duration="682000" />
+      <workItem from="1549391148079" duration="49000" />
+      <workItem from="1549391198913" duration="1364000" />
+      <workItem from="1549479974101" duration="1756000" />
+      <workItem from="1549648594661" duration="2765000" />
+      <workItem from="1549657226130" duration="2707000" />
+      <workItem from="1549693156503" duration="3303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20240000" />
+    <option name="totallyTimeSpent" value="40141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,10 +223,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.047441363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13785557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,8 +238,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34669557" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3501094" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -217,13 +260,6 @@
     <entry file="file://$PROJECT_DIR$/assets/Thermometer.svg" />
     <entry file="file://$PROJECT_DIR$/assets/cap_measure_visibility.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/icon.svg">
       <provider selected="true" editor-type-id="images" />
@@ -255,39 +291,92 @@
     <entry file="file://$PROJECT_DIR$/locales/de.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9874" column="4" selection-start-line="9874" selection-start-column="4" selection-end-line="9874" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drivers/darksky_current_weather/device.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="918">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string-format/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-856">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drivers/darksky_current_weather/driver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="457">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
-            <element signature="e#251#305#0" />
-            <element signature="e#252#304#0" />
-            <element signature="n#!!block;n#guid#0;n#DarkskyDriver#0" />
-            <element signature="n#!!block;n#s4#0;n#!!block;n#guid#0;n#DarkskyDriver#0" />
-            <element signature="e#1697#1815#0" />
-            <element signature="e#1858#2025#0" />
-            <element signature="e#2049#2103#0" />
+            <element signature="n#!!block;n#formatDate#0;n#DarkskyDriver#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="144" column="25" lean-forward="true" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
           <folding>
+            <element signature="n#!!block;n#name#0;n#!!top" />
+            <element signature="n#!!block;n#description#0;n#!!top" />
+            <element signature="e#388#407#0" />
+            <element signature="n#!!block;n#images#0;n#!!top" />
+            <element signature="n#!!block;n#author#0;n#!!top" />
+            <element signature="e#690#798#0" />
+            <element signature="e#1362#1518#0" />
+            <element signature="e#1458#1508#0" />
+            <element signature="e#1528#1609#0" />
+            <element signature="e#1637#3062#0" />
+            <element signature="e#1647#3061#0" />
+            <element signature="e#1691#1777#0" />
+            <element signature="e#1799#3053#0" />
+            <element signature="e#1800#2249#0" />
+            <element signature="e#1922#2012#0" />
+            <element signature="e#2032#2239#0" />
+            <element signature="e#2261#2499#0" />
+            <element signature="e#2370#2487#0" />
+            <element signature="e#2511#2747#0" />
+            <element signature="e#2618#2735#0" />
+            <element signature="e#2759#3043#0" />
+            <element signature="e#2843#2986#0" />
+            <element signature="n#!!block;n#capabilities#0;n#!!top" />
             <element signature="n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#insightsTitleTrue#0;n#!!block;n#cstm_measure_uvindex#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#insightsTitleTrue#0;n#!!block;n#cstm_apparent_temperature#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_measure_visibility#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_visibility#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_measure_temperature_high#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_measure_temperature_low#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_low#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_measure_temperature_lowtime#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_lowtime#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#cstm_measure_temperature_hightime#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#title#0;n#!!block;n#cstm_measure_temperature_hightime#0;n#!!block;n#capabilities#0;n#!!top" />
+            <element signature="n#!!block;n#contributing#0;n#!!top" />
           </folding>
         </state>
       </provider>
