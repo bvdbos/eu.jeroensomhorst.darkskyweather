@@ -44,7 +44,11 @@
         "measure_gust_strength",
         "cstm_measure_visibility",
         "cstm_measure_uvindex",
-        "cstm_apparent_temperature"
+        "cstm_apparent_temperature",
+        "cstm_measure_temperature_high",
+        "cstm_measure_temperature_low",
+        "cstm_measure_temperature_lowtime",
+        "cstm_measure_temperature_hightime"
       ],
       "pair": [
         {
@@ -144,6 +148,8 @@
         "en": "Wind chill",
         "de": "Windkühle"
       },
+      "getable": true,
+      "setable": false,
       "icon": "/assets/cap_apparent_temperature.svg"
     },
     "cstm_measure_visibility": {
@@ -153,7 +159,144 @@
         "nl": "Zichtbaarheid",
         "de": "Sichtweite"
       },
+      "getable": true,
+      "setable": false,
       "icon": "/assets/cap_measure_visibility.svg"
+    },
+    "cstm_measure_temperature_high": {
+      "type": "number",
+      "title": {
+        "nl": "Hoogste dagtemperatuur",
+        "en": "Highest day temperature",
+        "de": "Highest temperature"
+      },
+      "icon": "/assets/cap_apparent_temperature.svg"
+    },
+    "cstm_measure_temperature_low": {
+      "type": "number",
+      "title": {
+        "nl": "Laagste dagtemperatuur",
+        "en": "Lowest temperature",
+        "de": "Lowest temperature"
+      },
+      "getable": true,
+      "setable": false,
+      "icon": "/assets/cap_apparent_temperature.svg"
+    },
+    "cstm_measure_temperature_lowtime": {
+      "type": "string",
+      "title": {
+        "nl": "Tijd laagste dagtemperatuur",
+        "en": "Time Lowest temperature",
+        "de": "Time Lowest temperature"
+      },
+      "getable": true,
+      "setable": false,
+      "icon": "/assets/cap_apparent_temperature.svg"
+    },
+    "cstm_measure_temperature_hightime": {
+      "type": "string",
+      "title": {
+        "nl": "Tijd hoogste dagtemperatuur",
+        "en": "Time Highest temperature",
+        "de": "Time Highest temperature"
+      },
+      "getable": true,
+      "setable": false,
+      "icon": "/assets/cap_apparent_temperature.svg"
+    }
+  },
+  "flow": {
+    "triggers": [{
+        "id": "cstm_measure_visibility_change",
+      "title": {
+        "en": "Visibility has changed",
+        "nl": "Zichtbaarheid is veranderd"
+      },"tokens": [
+          {
+            "name": "visibility",
+            "type": "number",
+            "title": {
+              "en": "Visibility",
+              "nl": "Zichtbaarheid"
+            }
+          }
+        ]
+    },
+      {
+        "id": "cstm_measure_uvindex_change",
+        "title": {
+          "en": "UV Index has changed",
+          "nl": "Zonkracht is veranderd"
+        },"tokens": [
+        {
+          "name": "uvindex",
+          "type": "number",
+          "title": {
+            "en": "UV Index",
+            "nl": "Zonkracht"
+          }
+        }
+      ]
+      },
+      {
+        "id": "cstm_apparent_temperature_change",
+        "title": {
+          "en": "Apperent temperature has changed",
+          "nl": "Gevoelstemperatuur is veranderd"
+        },"tokens": [
+        {
+          "name": "temperature",
+          "type": "number",
+          "title": {
+            "en": "Temperature",
+            "nl": "Temperatuur"
+          }
+        }
+      ]
+      },
+      {
+        "id": "cstm_measure_temperature_high_change",
+        "title": {
+          "en": "Highest day temperature changed",
+          "nl": "Hoogste dagtemperatuur veranderd"
+        },
+        "tokens": [
+        {
+          "name": "temperature",
+          "type": "number",
+          "title": {
+            "en": "Temperature",
+            "nl": "Temperatuur"
+          }
+        }
+      ]
+      },
+      {
+        "id": "cstm_measure_temperature_low_change",
+        "title": {
+          "en": "Lowest day temperature changed",
+          "nl": "Laagste dagtemperatuur veranderd"
+        },
+        "tokens": [
+          {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+              "en": "Temperature",
+              "nl": "Temperatuur"
+            }
+          }
+        ]
+      }],
+    "conditions": [],
+    "actions": []
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "j.somhorst@gmail.com"
+      }
     }
   }
 }
